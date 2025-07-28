@@ -682,18 +682,6 @@
                 }
             });
         });
-
-    // Lógica para o menu móvel
-    document.addEventListener('DOMContentLoaded', () => {
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        if (mobileMenuButton && mobileMenu) {
-            mobileMenuButton.addEventListener('click', () => {
-                mobileMenu.classList.toggle('hidden');
-            });
-        }
-    });
-</script>
+    </script>
 </body>
 </html>
